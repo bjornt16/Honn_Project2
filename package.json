@@ -1,0 +1,33 @@
+{
+  "name": "honn_project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node index.js",
+    "test": "mocha --exit --timeout 120000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjornt16/Honn_Project2.git"
+  },
+  "author": "Björn Þórsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjornt16/Honn_Project2/issues"
+  },
+  "homepage": "https://github.com/bjornt16/Honn_Project2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "mongoose": "^5.3.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "mockgoose": "^7.3.5"
+  }
+}
