@@ -4,19 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "SET NODE_ENV=dev && node index.js",
-    "test": "mocha --exit --timeout 120000"
+    "start": "echo 'use the command: node index.js'",
+    "test": "env NODE_ENV=test mocha --exit --timeout 120000"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjornt16/Honn_Project2.git"
+    "url": ""
   },
-  "author": "Björn Þórsson",
+  "author": "Björn Þórsson & Jóhann Einar Ísaksson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bjornt16/Honn_Project2/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/bjornt16/Honn_Project2#readme",
+  "homepage": "",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
